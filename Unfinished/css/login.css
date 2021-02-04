@@ -76,7 +76,14 @@ div.header-text-div {
 
 .login_row {
     margin-top: 100px;
+    padding: 0px !important;
+
 }
+
+.right_side_login {
+    
+}
+
 
 .form_register {
     margin-top: 26.6px;
@@ -214,7 +221,7 @@ input.default-input {
 
   span {
       
-      font-size: 13px !important;
+      font-size: 12px !important;
   }
 
   a.alternative-link {
@@ -267,7 +274,7 @@ div.select-wrapper {
 
 
     .image_logo_desktop {
-        margin:-17px 0px 0px -42px !important;
+        margin:-17px 0px 0px -52px !important;
     }
 
     .desktop_main_register_text {
@@ -290,9 +297,65 @@ div.select-wrapper {
         border-radius: 30px !important;
     }
 
+    .bottom_row {
+        padding: 0px !important;
+        width: 114% !important;
+        margin-left: -4% !important;
+        
+    }
+
+    .container_desktop {
+        margin: 0px !important;
+        width: 90%;
+        margin-left: 5% !important;
+    }
+
+    .bottom_col {
+        padding: 0px !important;
+        font-size: 12px !important;
+    }
+
         .terms {
             font-size: 12px !important;
+            float: left !important;
+            margin-top: 10px;
+            
+            padding: 0px !important;
         }
+
+        .button_bottom_row {
+            width: 114% !important;
+        margin-left: -6% !important;
+        padding: 0px !important;
+        }
+
+        
+
+        div.button-row {
+            margin-top: 0px;
+            padding: 0px !important;
+        }
+         .new-user {
+            height: 46px !important;
+         }
+
+         .login_col {
+            padding-top: 75px !important;
+            padding-bottom: 75px !important;
+            border-radius: 20px;
+            margin-top: -30px ;
+        }
+        
+
+        .span-new-user-2 {
+            position: relative;
+            top: 28% ;
+        }
+
+        a.alternative-link {
+     
+            font-size: 12px !important;
+          }
 
         label.default-label {
             
