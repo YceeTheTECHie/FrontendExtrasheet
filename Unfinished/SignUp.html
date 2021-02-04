@@ -1,0 +1,193 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link href="css/icon.css" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    
+</head>
+<body>
+    <div class="row">
+        <div class="col m10 push-m1 l5 s12">
+            <div class="row image_logo_desktop ">
+                <div class="col s8 push-s2">
+                    <div class=" header_main container  center-align">
+                       <img class="hide-on-large-only" src="images/logo.jpg" />
+                       <img class="hide-on-med-and-down " src="images/logo.jpg" />
+                     </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col white s12 m12 l6 desktop_register_main">
+
+        
+            <div class="col  s12 m10 push-m1 ">
+                <!-- new changes -->
+                <div class="container  desktop_main_register_text">
+                    <div class=" create_header desktop_register_header_cover hide-on-med-and-down  ">
+                        <h5 class="create_header_text desktop_header_text">
+                            Register
+                        </h5>
+                        <div class="  below_desktop_header_text">
+                            Don't have an account? Create your 
+                            account now, You will be done in a jiffee
+                        </div>
+                    </div>
+                    <div class=" hide-on-large-only  create_header  ">
+                        <h5 class="create_header_text">
+                            Create your Account
+                        </h5>
+                    </div>
+    
+                    <div class=" checker ">
+                        <form class=" form  form_register conatiner">
+                            
+                            <div class="input-field">
+                                <label class="default-label
+                                lname" for="name">
+                                    Name
+                                </label>
+                                <input type="text" 
+                                placeholder="Enter Your full name" class="default-input
+                                 grey lighten-2
+                                 name" id="name" />
+                                 
+                            </div>
+                
+                            <div class="input-field">
+                                <label class="default-label
+                                lemail" for="email">
+                                    Email
+                                </label>
+                                <input type="text" 
+                                placeholder="Enter Your email" class="default-input
+                                 grey lighten-2
+                                 email" id="email" />
+                                 
+                            </div>
+                
+                            <div class="input-field">
+                                <label class="default-label lpn" for="pn">
+                                    Phone number
+                                </label>
+                                <input type="number" 
+                                placeholder="Enter Your Phone number"
+                                class="default-input
+                                 grey lighten-2
+                                 pn" id="pn" />
+                                 
+                            </div>
+                
+                
+                            <div class="gender_date row">
+                
+                            
+                            <div class=" grey lighten-2 input-field select-input
+                              col s4">
+                                <select class="icons">
+                                    
+                                  <option value=""
+                                   class="left">Male</option>
+                                  <option value=""
+                                   class="left">Female</option>
+                                </select>
+                                <label class=" select-label">Gender</label>
+                              </div>
+                
+                
+                              <div class="date-field col push-s1 s5 input-field">
+                                <label class="default-label ldate" for="date">
+                                    Date of Birth
+                                </label>
+                                <input type="text" 
+                                onfocus="(this.type='date')"
+                
+                                placeholder="Month and year"
+                                class="default-input
+                                 grey lighten-2
+                                 date" id="date" />
+                                 
+                            </div>
+                            </div>
+                            <div class="password-input input-field">
+                                <label class="default-label lpassword" for="password">
+                                    Password
+                                </label>
+                                <input type="password" 
+                                placeholder="Enter Your password"
+                                class="default-input
+                                 grey lighten-2
+                                 password" id="password" />
+                                 
+                            </div>
+                
+                            <div class="input-field">
+                                <label class="default-label cpassword" for="cpassword">
+                                   Confirm Password
+                                </label>
+                                <input type="password" 
+                                placeholder="Confirm Your password"
+                                class="default-input
+                                 grey lighten-2
+                                 cpassword" id="cpassword" />
+                                 
+                            </div>
+                
+                            <div class="terms center-align">
+                                <span class=" span-new-user">
+                                 By Signing up to
+                              <b class='underlined'>  <a href="#"  class=" alternative-link grey-text text-darken-4">Extrasheet</a>   </b>    
+                                , you agree to our <b> <a href="#"  class=" alternative-link grey-text text-darken-4">Terms of Use</a>   </b>    
+                                and   <b><a href="#"  class=" alternative-link grey-text text-darken-4">Privacy</a>  </b>    
+                            </b>    
+                            </span>
+                            </div>
+    
+                            <div class="button-row center-align row">
+                                <button class="btn button-input grey darken-3">
+                                    Sign Up
+                                </button>
+                            </div>
+                
+                        </form>
+                
+                        <div class="new-user center-align">
+                            <span class=" span-new-user">
+                                Already a user?
+                          <b class='underlined'>  <a href="#" 
+                           
+                            class=" supreme-link grey-text text-darken-4">Log In</a>
+                        </b>    
+                        </span>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+                </div>
+                
+               
+       
+    </div>
+    
+    
+    <script src="./js/jquery.js"></script>
+    <script src="./js/materialize.js"></script>
+    <script type="text/javascript">
+
+    
+        
+            $(document).ready(function(){
+            
+            $('select').formSelect();
+          });
+        </script>
+</body>
+
+
+</html>
+

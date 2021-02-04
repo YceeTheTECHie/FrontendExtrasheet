@@ -1,0 +1,390 @@
+.main_col {
+    
+}
+
+ul.profile_cover {
+    width: 70px;
+    max-height: 3.6rem;
+    
+    margin-top: 3px;
+    border: none;
+    
+    
+}
+
+a.brand-text {
+    font-family: 'Aclonica' !important;
+    
+}
+
+li.profile_example {
+    padding: 0.3rem !important;
+    width: 75px;
+   
+}
+
+.file_card {
+    margin-top: 0px !important;
+    padding-bottom: 10px;
+    border-top-left-radius: 34px !important;
+    border-top-right-radius: 34px !important;
+    border-bottom-left-radius: 17px !important;
+    border-bottom-right-radius: 17px !important;
+    border: none !important;
+}
+
+.file_image_cover {
+    
+}
+
+.file_image {
+    height: 200px;
+    width:108% !important;
+    margin-left: -4.2%;
+    
+    border-bottom-left-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+    
+}
+
+i.grade_icons {
+    color:orangered;
+    font-size: 13px;
+}
+i.ungrade_icons {
+    color:white;
+    font-size: 13px;
+}
+
+.halfStyled { 
+    position: relative; 
+    font-size: 50px; 
+    display: inline-block; 
+    color: black; 
+    white-space: pre; 
+    overflow: hidden; 
+} 
+  
+.halfStyled:before { 
+    display: block; 
+    position: absolute; 
+    z-index: 1; 
+    top: 0; 
+    left: 0; 
+    content: attr(data-content); 
+    height: 50%; 
+    overflow: hidden; 
+    color: green; 
+} 
+
+.file_details_summary {
+    padding: 0px !important;
+    margin-top: 0px;
+}
+.file_header_details {
+    border: none;
+}
+
+.file_header {
+    padding: 10px 0px 15px 0px !important;
+}
+
+.li_name_category {
+    margin: 0px !important;
+    
+    
+    
+}
+
+.file_category_button {
+    margin: -4px 0px 0px 0px !important;
+    width: 6rem;
+    padding: 0px;
+    border-radius: 20px;
+    font-size: 8px;
+}
+
+.file_following_button {
+    position: relative;
+    left: 45%;
+    margin: -4px 0px 10px 0px !important;
+    max-width: 10rem !important;
+    padding: 0px 10px 0px 10px !important;
+    border-radius: 20px;
+    font-size: 9px;
+
+}
+
+
+.file_summary_profile {
+    margin-top: -60px;
+}
+
+.file_main_summary {
+    font-size: 14px;
+    margin-top: -10px !important;
+}
+.file_details_bottom {
+    padding: 0px !important;
+    margin-top: -20px !important;
+    border: none !important;
+    
+}
+.file_bottom_content {
+    margin: 20px 0px 0px 0px !important;
+    border: none;
+
+}
+
+.file_bottom_image {
+    width: 50px !important;
+    height: 50px !important;
+    margin: -3px 0px 0px -15px;
+}
+.author {
+    margin: -10px -23px !important;
+    text-transform: none;
+    font-size: 12px;
+    line-height: 143%;
+    
+}
+
+.author_name {
+    margin: 0px !important;
+}
+
+
+.author_other {
+    color: grey
+}
+.downloads_share {
+
+}
+
+i.file_bottom_icons {
+    font-size:33px;
+    line-height: 35px;
+}
+
+.downloads_number {
+    font-size: 10px;
+}
+
+
+.author_profile {
+margin-bottom: 1px !important;
+
+}
+
+.mobile_menu_hidden {
+    border: none !important;
+}
+div.key_menus {
+    border-radius:  35px !important;
+    padding: 15px 35px 15px 40px !important;
+
+}
+
+.top_info_back {
+   position: relative;
+   bottom: 110px;
+   left: -2.5%;
+}
+
+.side_info_category {
+    margin: 5px 10px 0px 0px !important;
+}
+
+.card_title_menus {
+    width: 100% !important;
+    padding: 0px 0px 10px 20px !important;
+}
+
+.reviews_div_cover {
+    margin-top:  68px;
+    margin-bottom: 45px;
+}
+
+.reviews_header_text {
+    font-size:24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+.file_summary_comment {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    margin-top: 20px ;
+}
+
+.file_details_bottom_comment {
+    padding: 0px !important;
+    margin-top: -27px;
+    padding-bottom: 30px !important;
+    border-bottom : 2px solid lightgrey !important;
+    margin-bottom: 0px !important;
+}
+.author_comment_box {
+    margin: -5px -5px;
+    text-transform: none;
+    font-size: 12px;
+    line-height: 143%;
+    
+}
+.author_comment_name {
+    margin-top: 3px;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+.author_comment {
+    
+
+}
+.author_comment_date {
+    margin-top: 10px;
+}
+
+div.input-field {
+    margin-left: -18px;
+}
+
+label.default-label {
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    top: -10px;
+    left: 20px;
+    right: 30px;
+    color: black !important;
+    
+}
+
+input.default-input {
+        
+    border-radius: 18px !important;
+    
+    
+    padding: 9px !important;
+    padding-left: 15px !important;
+
+    outline: none;
+    border-bottom: none!important;
+    box-shadow: none!important;
+
+    
+}
+
+textarea.description_field {
+    padding: 24px  !important;
+    height: 70px !important;
+    border: none;
+    margin-left: 20px;
+    border-radius: 20px;
+    color: grey;
+    font-size: 12px;
+    font-weight: 600;
+    width: 95%;
+
+}
+
+
+
+::-webkit-input-placeholder { /* Edge */
+    color: darkolivegreen;
+    font-weight:  600;
+    opacity: 0.5;
+  }
+
+  .post_comment_button {
+      padding: 7px 30px 43px 30px;
+      border-radius: 30px;
+      text-transform: none;
+      font-weight: 600;
+  }
+
+  .normal_text {
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      margin-right: 3px;
+     
+  }
+
+  .mobile_menu_hidden {
+    border: none !important;
+    border-radius: 50px !important;
+    position: fixed;
+    width: 90%;
+    margin-left: 7%;
+    height: 72px;
+    bottom: 10;
+    left: 0;
+}
+div.key_menus {
+    border-radius:  35px !important;
+    padding: 15px 35px 15px 40px !important;
+    border: 1px solid grey;
+    
+
+}
+
+i.key_button_icon {
+    font-size: 53px !important;
+    
+} 
+
+.key_button {
+  
+}
+
+@media only screen and (max-width: 600px) {
+    .key_button {
+        margin-right: 40% !important;
+    } 
+    }
+
+    @media only screen and (max-width: 10000px) {
+        .key_button {
+            margin-right: 40% !important;
+        } 
+        }
+
+    @media only screen and (max-width: 540px) {
+        .key_button {
+            margin-right: 38% !important;
+        } 
+        }
+
+        @media only screen and (max-width: 450px) {
+            .key_button {
+                margin-right: 35% !important;
+            } 
+            }
+
+    @media only screen and (max-width: 400px) {
+        .key_button {
+            margin-right: 32% !important;
+        } 
+        }
+
+
+i.key-item {
+ font-size: 34px !important;
+}
+
+.key_item_name {
+    font-size: 10px;
+}
+
+i.key_item_download {
+    font-size: 40px !important;
+}
+
+.key_item_name_download {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+
+}
