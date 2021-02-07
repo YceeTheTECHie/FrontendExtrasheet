@@ -1,0 +1,189 @@
+body {
+    background: lightgrey;
+}
+
+.position_preloader_icon {
+    position: relative;
+    top: 40%;
+    left: 0%;
+    
+}
+
+.preloader_main {
+    height: 20px;
+}
+
+
+div.indeterminate {
+    background:  #b19cd9 !important;
+}
+
+
+.cancel_button {
+    margin: 70px 0px 0px 80px;
+    
+}
+
+.cancel_button_text {
+    border-radius: 10px;
+    height: 46px;
+    width: 130px;
+    letter-spacing: 2px;
+    background:  #b19cd9 !important;
+    color: white !important;
+    font-size: 15px !important;
+    
+}
+/* 300 to 550 */
+
+@media (max-width:350px) and (min-width:0px) {
+    div.preloader_text {
+        font-size: 25px;
+
+        position: relative;
+        left: 0px;
+        font-weight: 800;
+        padding: 0px !important;
+        
+        
+        
+    }
+
+.moving_dots {
+    margin: -8% 0% 0% 79%;
+    position: relative;
+    
+    
+    
+    
+}
+
+}
+
+/* 0 to 550 */
+
+@media (max-width:550px) and (min-width:350px) {
+
+    .preloader_text_main {
+        position: relative;
+        left: -28px;
+    }
+
+    div.preloader_text {
+        font-size: 32px;
+        margin-left: -7%;
+        font-weight: 600;
+        
+    }
+
+.moving_dots {
+    margin: -6% 0% 0% 76.5%;
+    
+    
+}
+
+}
+
+
+/* 550 to 650 */
+
+@media (max-width:650px) and (min-width:550px) {
+    div.preloader_text {
+        font-size: 32px;
+        margin-left: -15%;
+        font-weight: 600;
+        
+    }
+
+.moving_dots {
+    margin: -4% 0% 0% 74%;
+    
+    
+}
+
+}
+
+
+/* 650 to 750 */
+
+@media (max-width:750px) and (min-width:650px) {
+    div.preloader_text {
+        font-size: 32px;
+        margin-left: -17%;
+        font-weight: 600;
+        
+    }
+
+.moving_dots {
+    margin: -3.8% 0% 0% 71%;
+    
+    
+}
+
+}
+
+@media (max-width:850px) and (min-width:750px) {
+    div.preloader_text {
+        font-size: 32px;
+        margin-left: -19%;
+        font-weight: 600;
+        
+    }
+
+.moving_dots {
+    margin: -3.5% 0% 0% 68%;
+    
+    
+}
+
+}
+
+@media (max-width:1000px) and (min-width:850px) {
+    div.preloader_text {
+        font-size: 32px;
+        margin-left: -19%;
+        font-weight: 600;
+        
+    }
+
+.moving_dots {
+    margin: -2.7% 0% 0% 66%;
+    
+    
+}
+
+}
+
+@media (max-width:1200px) and (min-width:1000px) {
+    div.preloader_text {
+        font-size: 32px;
+        margin-left: -19%;
+        font-weight: 600;
+        
+    }
+
+.moving_dots {
+    margin: -2.7% 0% 0% 67%;
+    
+    
+}
+
+}
+
+@media (max-width:1400px) and (min-width:1200px) {
+    div.preloader_text {
+        font-size: 32px;
+        margin-left: -19%;
+        font-weight: 600;
+        
+    }
+
+.moving_dots {
+    margin: -2.3% 0% 0% 64%;
+    
+    
+}
+
+}
+
+

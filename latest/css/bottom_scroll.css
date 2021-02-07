@@ -1,0 +1,204 @@
+.similar_files {
+    max-width: 100%;
+    overflow-x:scroll;
+    margin-bottom: 170px;
+    
+    
+}
+
+.file_card_scroll {
+    padding-bottom: 10px;
+    border-top-left-radius: 34px !important;
+    border-top-right-radius: 34px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border: 1px solid lightgrey;
+    border-bottom: 0px;
+    
+    
+}
+
+.file_image_scroll {
+    height: 200px;
+    width:100% !important;
+    border-top-left-radius: 34px !important;
+    border-top-right-radius: 34px !important;
+    border-bottom-left-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+    
+}
+
+.horizontal_bottom_scroll {
+    width: 200%;
+    margin: 0px !important;
+    margin-bottom: 30px !important;
+    
+}
+
+.column_scroll {
+    padding: 2px 8px 5px 4px !important;
+}
+
+i.grade_icons_scroll {
+    color:orangered;
+    font-size: 9px;
+}
+i.ungrade_icons_scroll {
+    color:white;
+    font-size: 9px;
+}
+
+.ul_main_bottom {
+    
+    
+    
+}
+
+.li_main_bottom_scroll {
+
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    border-bottom: 1px solid lightgrey !important;
+    border-right: 1px solid lightgrey !important;
+    border-left: 1px solid lightgrey !important;
+    
+   
+    
+    
+}
+.author_scroll {
+    margin: 0px -55px;
+    text-transform: none;
+    font-size: 12px;
+    padding: 0px !important;
+    line-height: 143%;
+    
+}
+.author_name_scroll {
+    margin: 0px !important;
+    color: grey ;
+}
+
+
+.side_info_category_scroll {
+    margin: 5px 10px 0px 0px !important;
+    width: 70px;
+    height: 32px;
+}
+
+
+
+.downloads_share_scroll {
+    margin-top: 0px;
+    margin-right: -20px;
+    padding: 0px !important;
+}
+
+i.file_bottom_icons_scroll {
+    font-size:30px;
+    line-height: 35px;
+}
+
+i.cloud_download_icon {
+    position: relative;
+    left: 20px;
+    
+}
+
+.downloads_number_scroll {
+    font-size: 10px;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    color: grey !important;
+    
+}
+
+
+@media (max-width:850px) and (min-width:603px) {
+    .similar_files {
+        max-width: 100%;
+        overflow-x:scroll;
+        margin-bottom: 170px;
+        
+        
+    }
+
+    .horizontal_bottom_scroll {
+        width: 160%;
+        margin: 0px !important;
+        margin-bottom: 30px !important;
+        
+    }
+
+    .column_scroll {
+        padding: 0px 7px 0px 3px !important;
+    }
+
+}
+
+@media (max-width:993px) and (min-width:850px) {
+    .similar_files {
+        max-width: 100%;
+        overflow-x:scroll;
+        margin-bottom: 170px;
+        
+        
+    }
+
+    .horizontal_bottom_scroll {
+        width: 100%;
+        margin: 0px !important;
+        margin-bottom: 30px !important;
+        
+    }
+
+    .column_scroll {
+        padding: 0px 7px 0px 3px !important;
+    }
+
+}
+
+@media (max-width:1250px) and (min-width:993px) {
+    .similar_files {
+        max-width: 100%;
+        overflow-x:scroll;
+        margin-bottom: 170px;
+        
+        
+    }
+
+    .horizontal_bottom_scroll {
+        width: 155%;
+        margin: 0px !important;
+        margin-bottom: 30px !important;
+        
+    }
+
+    .column_scroll {
+        padding: 0px 7px 0px 3px !important;
+    }
+
+}
+
+@media (max-width:10200px) and (min-width:1250px) {
+    .similar_files {
+        max-width: 100%;
+        overflow-x:scroll;
+        margin-bottom: 170px;
+        
+        
+    }
+
+    .horizontal_bottom_scroll {
+        width: 100%;
+        margin: 0px !important;
+        margin-bottom: 30px !important;
+        
+    }
+
+    .column_scroll {
+        padding: 0px 2px 0px 3px !important;
+    }
+
+}

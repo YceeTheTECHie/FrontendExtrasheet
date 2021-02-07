@@ -1,0 +1,62 @@
+.synthetics {
+    margin-top: 35px !important;
+}
+
+.profile_synthetics {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+    
+}
+
+.profile_synthetics_head {
+    color: grey;
+    font-size: 13px;
+    margin-left: -20px;
+}
+
+.number_post {
+    font-size: 25px;
+    color: grey;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: -20px;
+    margin-top: -6px;
+}
+
+div.followers {
+    margin-left: -40px;
+}
+.number_post_followers {
+    font-size: 25px;
+    color: grey;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: -40px;
+    margin-top: -6px;
+}
+
+
+div.following {
+    margin-left: -45px;
+}
+.number_post_following {
+    font-size: 25px;
+    color: grey;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: -45px;
+    margin-top: -6px;
+}
+
+button.following {
+    color: white;
+    position: relative;
+    top: 2px;
+    height: 50px;
+    padding: 5% 40% 8% 40%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 14px;
+}
