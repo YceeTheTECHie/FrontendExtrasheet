@@ -1,0 +1,114 @@
+.header_niche {
+    padding: 12px;
+    margin-bottom: 50px !important;
+    padding-bottom: 20px !important;
+}
+
+.header_niche_text {
+    font-size: 22px !important;
+    letter-spacing: 0.7px;
+    margin: 0px 0px 0px 7px !important;
+    font-weight: 600;
+}
+
+.header_niche_back {
+    margin: 4px 0px 0px -5px;
+    font-size: 30px !important;
+}
+
+.settings_prefix_icon {
+    
+    position: relative;
+    top: 4px;
+    left: 4px;
+}
+
+.settings_header {
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+.settings_row {
+    margin-top: -50px;
+    margin-bottom: 250px;
+}
+
+
+.personal_info_text {
+    color: grey;
+    font-size: 17px !important;
+}
+
+.settings_items {
+    margin-top: 16px !important;
+    font-size: 16px;
+    font-weight: 600;
+} 
+
+.logout_settings_items {
+    margin-top: 55px !important;
+}
+
+.logout {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    top: 3px;
+}
+
+i.logout_icon {
+    position: relative;
+    top: 4px;
+    font-size: 30px !important;
+}
+
+.mobile_menu_hidden {
+    border: none !important;
+    border-radius: 50px !important;
+    position: fixed;
+    width: 90%;
+    margin-left: 5%;
+    height: 80px;
+    bottom: 10;
+    left: 0;
+}
+div.key_menus {
+    border-radius:  35px !important;
+    padding: 15px 35px 15px 40px !important;
+    border: 1px solid grey;
+    
+
+}
+
+i.key_button_icon {
+    font-size: 53px !important;
+    
+} 
+
+.key_button {
+  
+}
+
+@media only screen and (max-width: 10000px) {
+    .key_button {
+        margin-right: 44% !important;
+    } 
+    }
+
+    @media only screen and (max-width: 550px) {
+        .key_button {
+            margin-right: 36.7% !important;
+        } 
+        }
+
+
+i.key-item {
+ font-size: 34px !important;
+}
+
+.key_item_name {
+    font-size: 10px;
+}
+
+
+

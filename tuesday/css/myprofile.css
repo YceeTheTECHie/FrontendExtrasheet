@@ -1,0 +1,601 @@
+.header_niche {
+    padding: 0px;
+    margin-bottom: 0px !important;
+    position: fixed;
+    height: 65px;
+    width: 100%;
+    top: 80px;
+    z-index: 5;
+}
+
+.header_niche_text {
+    font-size: 22px !important;
+    letter-spacing: 0.7px;
+    margin: 0px 0px 0px 7px;
+    font-weight: 600;
+}
+
+.header_niche_back {
+    margin: 4px 0px 0px -5px;
+    font-size: 30px !important;
+}
+
+.header_col {
+    padding: 12px !important;
+}
+
+.first_row {
+    margin-top: 61.4px !important;
+}
+
+.col_store {
+    padding: 4px !important;
+
+}
+
+.file_header_details {
+    border: none;
+}
+
+
+.file_details_bottom {
+    padding: 0px !important;
+    margin-top: 0px;
+    
+    border: none !important;
+    
+
+}
+.file_bottom_content {
+    margin: 10px 0px 0px 0px !important;
+    height: 180px;
+    padding: 0px !important;
+    border: none;
+
+}
+
+.file_bottom_li {
+    width: 100% !important;
+    height: 100% !important;
+    margin-left: 0% !important;
+    padding: 20px !important;
+} 
+
+.file_bottom_image {
+    width: 37% !important;
+    height: 86% !important;
+    margin: -3px 0px 0px -10px;
+    border-radius: 5px !important ;
+}
+.author {
+    margin-top: 15px;
+    text-transform: none;
+    font-size: 12px;
+    width: 60%;
+    line-height: 143%;
+    padding: 0px !important;
+    
+}
+
+.author_name {
+    font-size: 17px !important;
+    margin-left: 9%;
+    font-weight: 700;
+    color: grey !important;
+    
+}
+
+.author_profile {
+    margin-top: 5px;
+    margin-left: 9%;
+    letter-spacing: 0.4px;
+    color: grey;
+}
+
+.author_file_date {
+    margin-top: 2px;
+    margin-left: 9%;
+    margin-bottom: 8px;
+    letter-spacing: 0.1px;
+    color: grey;
+}
+
+.side_info_category {
+    
+    margin-left: 9%;
+    padding: 0px 30px 35px 30px !important;
+    border-radius: 5px !important;
+    font-size: 13px;
+    height: 26px !important;
+    text-transform: none;
+}
+
+.file_main_summary {
+    font-size: 14.4px;
+    margin: 30px 18px !important;
+    line-height: 24px;
+    font-weight: 500;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 30px;
+}
+
+.synthetics {
+    margin-top: 35px !important;
+}
+
+.profile_synthetics {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+    
+}
+
+.profile_synthetics_head {
+    color: rgb(44, 41, 41);
+    font-size: 12px;
+}
+
+.number_post {
+    font-size: 19px;
+    color: grey;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 0px;
+    margin-top: -2px;
+}
+
+.reviews_div_cover {
+    margin-top:  22px;
+    margin-bottom: 45px;
+    border-bottom: 1px solid lightgrey ;
+    padding-bottom: 20px ;
+    
+}
+
+.reviews_div_cover_connect {
+    margin-top:  42px;
+    margin-bottom: 15px;
+    text-align: center !important;
+    
+    
+}
+
+
+.li_main_bottom_scroll {
+    padding: 10px 0px 0px 10px!important;
+    
+    margin: 1px !important;
+}
+
+.reviews_header_text {
+    font-size:20px;
+    font-weight: 600;
+    letter-spacing: 0px;
+
+}
+
+.see_all_posts {
+    font-size:16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+
+}
+
+.circles_enlighten {
+    font-size:17px;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+i.content_paste_icon {
+    font-size: 48px;
+}
+
+i.edit_icon {
+    font-size: 25px;
+    position: relative;
+    top: 14px;
+    left: -36px;
+}
+
+
+.form_div {
+    margin-top: -0px !important;
+    height: 150%;
+    margin-left: 1%;
+    padding: 0% 5% 5% 5%;
+    border-top: none;
+}
+
+.school_circle {
+    position: relative;
+    top: 50px;
+    left: 40%;
+    
+    
+}
+
+.school_circle_text {
+    font-size:19px;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+
+
+  .circle_2 {
+      position: relative;
+      top: 45px;
+      border-bottom: 1px solid grey;
+      padding-top: 30px !important;
+      padding-bottom: 30px !important;
+  }
+
+  .circle_2 {
+    position: relative;
+    top: 45px;
+    border-bottom: none;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+  .geo_circle {
+    position: relative;
+    left: 39%;
+    
+    
+}
+
+.contact_text {
+    position: relative;
+    left: 0% !important;
+    top: -37px !important;
+}
+
+.geo_circle_text {
+    font-size:19px;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+
+
+  .circle_1 {
+      position: relative;
+      top: 45px;
+      border-bottom: 1px solid grey;
+  }
+  
+div.input-field {
+    width: 100% !important;
+}
+
+label.default-label {
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    top: -7px;
+    right: 40px;
+    color: grey!important;
+    
+}
+
+input.default-input {
+    
+    border-radius: 18px !important;
+    height: 17px;
+    font-size: 12px !important;
+    padding: 9px !important;
+    padding-left: 15px !important;
+    width: 95% !important;
+    margin-left: 0px !important;
+    outline: none;
+    border-bottom: none!important;
+    box-shadow: none!important;
+
+    
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: grey;
+  }
+
+  .settings_items {
+    margin-top: 60px !important;
+    padding: 0px 10px;
+    font-size: 13px;
+    color: grey;
+} 
+
+.settings_items_2 {
+    margin-top: 18px !important;
+    padding: 0px 10px;
+    font-size: 13px;
+    color: grey;
+
+} 
+
+.settings_items_3 {
+    margin-top: 18px !important;
+    padding: 0px 10px;
+    font-size: 13px;
+    color: grey;
+} 
+
+.profile_edit {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.below_profile_edit {
+    font-size: 13px;
+    font-weight: 500;
+    max-width: 2px !important;
+   
+}
+
+.contact {
+    margin-bottom: 50px !important;
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 50px !important;
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+.contact_section {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.contact_icons  {
+    position: relative;
+    top: 14px;
+}
+
+
+
+.below_profile_edit {
+    max-width: 3px !important;
+}
+
+.below_profile_text_link {
+    font-size: 13px;
+    font-weight: 500;
+    max-width: 2px !important;
+   color: blueviolet;
+}
+
+
+@media (max-width: 400px) and (min-width: 0px) {
+    .form_div {
+        margin-top: -0px !important;
+        height: 170%;
+        margin-left: 1%;
+        padding: 0% 5% 5% 5%;
+        border-top: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 993px) {
+    .unhide_edit {
+        display: none;
+    }
+
+    .medium_small_edit  {
+        position: relative;
+        top: 70px;
+    }
+
+    .school_circle_text {
+        position: relative;
+        top: -45px;
+        left: -6%;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 993px) {
+    
+    .file_bottom_content {
+        margin: 10px 0px 0px 0px !important;
+        height: 215px !important;
+        padding: 0px !important;
+        border: none;
+    
+    }
+
+    .file_bottom_image {
+        width: 30% !important;
+        height: 90% !important;
+        margin: -6px 0px 0px -10px;
+        border-radius: 5px !important ;
+    }
+
+    .academic_circle_tab {
+        margin-top: 30px !important;
+    }
+    
+    .academic_edit {
+        position: relative;
+        top: 50px;
+        left: 40px;
+    
+    }
+
+    .school_circle_text {
+        position: relative;
+        top: -47px;
+        left: -15px;
+    }
+
+    .side_hustle_tab {
+        position: relative;
+        top: -70px;
+    }
+
+    .side_hustle_edit {
+        position: relative;
+        left: 12.5%;
+    }
+
+    .side_hustle_text {
+        position: relative;
+        top: 14px;
+    }
+
+    .contact_section {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .contact_responsive {
+    width: 42%;
+    position: relative;
+    left: 18%;
+    top: -200px;
+    padding: 0px !important;
+    }
+
+        .contact_embody {
+            margin-top: -50px
+        }
+    .contact_edit {
+        position: relative !important;
+        left: 55px !important;
+        top: 53px !important;
+    }
+
+    .contact_text {
+        position: relative !important;
+        top: 18px !important;
+    }
+
+    .settings_items   {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .settings_items_2   {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .settings_items_3   {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .reviews_div_cover {
+        margin-top:  15px;
+        margin-bottom: 45px;
+        border-bottom: none;
+        padding-bottom: 20px ;
+        
+    }
+
+    .reviews_div_cover_connect {
+        margin-top:  42px;
+        margin-bottom: 15px;
+        text-align: left !important;
+        border-bottom: 1px solid lightgrey;
+        padding-bottom: 15px;
+        position: relative;
+        top: 65px;
+         
+    }
+
+    .form_div {
+    -webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+        height: 0px;
+    }
+
+
+    
+}
+
+
+
+
+@media only screen and (max-width: 799px) {
+    
+    .right_desktop_edit {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    
+    .button_normal_edit {
+        display: none !important;
+    }
+
+    .right_desktop_edit {
+        margin: -4px 10px 0px 0px !important;
+    }
+
+    .author {
+        margin-top: 5px;
+        text-transform: none;
+        font-size: 12px;
+        width: 60%;
+        line-height: 143%;
+        padding: 0px !important;
+        
+    }
+
+        
+    .file_bottom_image {
+        width: 32% !important;
+        height: 90% !important;
+        margin: -6px 0px 0px -10px;
+        border-radius: 5px !important ;
+    }
+
+    .col_store {
+        padding: 0px 45px!important;
+        margin-top: 30px !important;
+    }
+
+    .file_bottom_content {
+        margin: 10px 0px 0px 0px !important;
+        height: 195px;
+        padding: 0px !important;
+        border: none;
+    
+    }
+}
+
+@media (max-width:800px) and (min-width: 603px) {
+    .file_bottom_content {
+        margin: 10px 0px 0px 0px !important;
+        height: 205px;
+        padding: 0px !important;
+        border: none;
+    
+    }
+
+    .file_bottom_image {
+        width: 39% !important;
+        height: 90% !important;
+        margin: -6px 0px 0px -10px;
+        border-radius: 5px !important ;
+    }
+
+    .author_name {
+        margin-left: 17%;
+    }
+    .author_other {
+        margin-left: 17%;
+    }
+    .button_normal_edit {
+        margin-left: 17%;
+    }
+}
+
+

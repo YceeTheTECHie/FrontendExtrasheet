@@ -1,0 +1,214 @@
+
+
+/* very large screens */
+
+@media only screen and (min-width: 1150px) {
+    
+
+    .notify_icon {
+        position: relative;
+        left: 0px  !important;
+    }
+}
+
+/* medium screens */
+
+@media (max-width:799px) and (min-width:603px) {
+    ul.profile_cover {
+        width: 70px;
+        max-height: 3.6rem;
+        margin: 3px 0px 0px 20px;
+        border: none;
+        position: relative;
+        left: 38%;
+}
+
+}
+
+
+/*larger medium screens */
+
+@media only screen and (min-width: 800px) {
+
+    .notify_icon {
+        position: relative;
+        left: 0px  !important;
+    }
+    .container_desktop {
+        margin: 0px;
+        width: 85% !important;
+        margin-left: 7.5% !important;
+    }
+
+    .main_navbar_text_cover {
+        padding: 0px !important;
+        margin-right: 25px;
+        margin-top: 6.5px !important;
+    }
+        .right_notification {
+            padding-left: 0px !important;
+            width:80px;
+        }
+
+        .link_notification {
+            padding: 0px !important;
+            position: relative;
+            left: -10px;
+            
+            
+
+        }
+
+    .header_link_cover_2 {
+        padding: 0px !important;
+        margin-top: -2px !important;
+    }
+    
+    .main_navbar_text_cover_2 {
+        margin: 0px 10px;
+        width: 28px !important;
+        height: 38px !important;
+    }
+
+    .main_navbar_text_cover_3 {
+        margin: 10px 10px 0px 10px;
+        width: 25% !important;
+        height: 38px !important;
+        border-radius: 20px;
+    }
+
+    div.input-field {
+        width: 135%;
+        border-radius: 20px;
+        margin-top: 4px;
+    }
+
+    input.search_input {
+        padding: 0px 0px 0px 38px !important;
+        width: 70% !important;
+        border-bottom-left-radius: 20px  !important;
+        
+    }
+
+    i.search_label {
+        margin: -12px 0px 0px -5px !important;
+    }
+
+    i.cancel_label {
+        margin: -13px -10px 0px 0px !important;
+    }
+    
+    i.navbar_icons {
+        font-size: 29px !important;
+        margin-top: 4px;
+    }
+}    
+
+
+/* Large screens */
+
+@media only screen and (min-width: 993px) {
+    .container_desktop {
+        margin: 0px;
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+    
+    
+    .notify_icon {
+        position: relative;
+        left: 0px  !important;
+    }
+    
+    }
+
+
+    /* additional */
+
+    @media only screen and (max-width: 799px) {
+        ul.hide-on-small-only {
+            display: none !important;
+        }
+
+        .notify_icon {
+            position: relative;
+            left: 10px  !important;
+        }
+    
+    }
+
+
+    /* small screens */
+
+    @media only screen and (max-width: 602px) {
+        ul.hide-on-small-only {
+            display: none !important;
+        }
+    
+        .notify_icon {
+            position: relative;
+            left: 20px  !important;
+        }
+        
+    
+        
+        
+    }
+
+    /* Additionals */
+
+    .navbar_color-changer {
+        padding:10px 0px 70px 0px;
+    }
+
+    ul.profile_cover {
+       
+        width: 70px;
+        max-height: 3.6rem;
+        
+        margin: 3px 0px 0px 30px;
+        border: none;
+        
+        
+    }
+
+    .main_navbar_text_cover {
+        padding: 0px !important;
+        margin-right: 35px;
+        margin-top: 0.8% !important;
+    }
+    
+    li.notification {
+        padding: 0px !important;
+        margin: 0px;
+    }
+    
+    .header_link_cover {
+        padding: 0px !important;
+        margin-top: 85% !important;
+    }
+    
+    a.brand-text {
+        font-family: 'Aclonica' !important;   
+    }
+    
+    .brand_logo_text {
+        font-size: 20px;
+    }
+    
+    li.profile_example {
+        padding: 0.3rem !important;
+        width: 75px;
+        
+       
+    }
+
+    .notify_icon {
+       position: relative;
+       
+    }
+
+    
+
+
+    
