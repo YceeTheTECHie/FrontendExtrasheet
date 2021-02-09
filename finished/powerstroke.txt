@@ -1,0 +1,9 @@
+the torque converter. During the power stroke, both the intake and exhaust valves are still closed. As the piston approaches the bottom position in the power stroke, the exhaust valve starts opening, allowing hot exhaust gases to rush out. In some literature, the power stroke is called 'expansion stroke' or 'combustion stroke'. 
+4. Exhaust Stroke
+ Exhaust stroke.
+During the exhaust stroke, the exhaust valve is open and the intake valve is closed. The piston moves up pushing the remaining exhaust gases out of the cylinder and into the exhaust manifold. The exhaust stroke is the last stroke of the cycle. As the piston approaches the top position (TDC), the intake valve starts opening for the intake stroke of the next combustion cycle. The exhaust valve closes right after the piston reaches the TDC.
+
+
+
+Engine displacement is a determining factor in the horsepower and torque that an engine produces, as well as how much fuel that engine consumes. Generally speaking, the higher an engine’s displacement the more power it can create, while the lower the displacement the less fuel it can consume. This is because displacement has a direct impact on how much fuel must be drawn into a cylinder to create power and maintain engine operation. A high-displacement engine draws in more of the air/fuel mixture per revolution; therefore more fuel is consumed. Other factors play into how powerful or efficient an engine is, such as fuel delivery,
+ ignition systems, valvetrain layout, and forced induction, but in the simplest terms a bigger engine will be more powerful, and a smaller engine will be more efficient.

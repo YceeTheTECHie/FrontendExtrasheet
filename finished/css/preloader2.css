@@ -1,0 +1,44 @@
+body {
+    
+}
+
+.position_preloader_icon {
+    position: relative;
+    top: 10%;
+    left: 0%;
+    
+}
+
+i.completed_upload_icon {
+    font-size: 300px;
+    color: #b19cd9 !important;
+    
+}
+
+.upload_successful {
+    margin-bottom: 60px ;
+}
+
+.upload_successful_text {
+    font-size: 23px;
+    font-weight: 600;
+    
+}
+
+.button_another_text {
+    border-radius: 10px !important;
+    height: 48px;
+    width: 230px;
+    font-size: 16px;
+    text-transform: none;
+    background: #b19cd9;
+}
+
+.back_home {
+    margin-top: 20px;
+}
+
+.back_home_text {
+    font-weight: 600;
+    font-size: 14px;
+}
