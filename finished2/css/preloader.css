@@ -1,0 +1,13 @@
+div.preloading_section {
+    width: 50% !important;
+    margin-top: 70%;
+    margin-bottom: 0px !important;
+}
+
+.big_circle_preloader_active {
+   margin-top: -30% !important;
+    margin-left: 25% !important;
+    width: 220px !important;
+    height: 220px !important;
+
+}
