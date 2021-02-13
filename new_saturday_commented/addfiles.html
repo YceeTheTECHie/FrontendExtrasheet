@@ -1,0 +1,331 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" href="./css/addfiles.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    
+    <link href="css/icon.css" rel="stylesheet">
+    
+    <!-- Compiled and minified JavaScript -->
+    
+</head>
+<body>
+<!-- NAVBAR --->
+<div class="navbar-fixed">
+  <nav class="white darken-2 navbar_color-changer z-depth-0">
+    <div class="container container_desktop">
+      <div class="nav-wrapper">
+        <ul id="nav-mobile" class="main_navbar_text_cover row left">
+          <li class="notification col s1">
+            <a class="header_link_cover grey" href="#">
+              <img src="images/logo.jpg" />
+            </a>
+          </li>
+        </ul>
+
+        <ul
+          id="nav-mobile"
+          class="hide-on-small-only main_navbar_text_cover_2 row left"
+        >
+          <li class="notification col s1">
+            <a class="header_link_cover_2" href="#">
+              <img class="navbar_icons" src="images/home.svg" />
+            </a>
+          </li>
+        </ul>
+
+        <ul
+          id="nav-mobile"
+          class="hide-on-small-only main_navbar_text_cover_2 row left"
+        >
+          <li class="notification col s1">
+            <a class="header_link_cover_2" href="#">
+              <img
+                class="navbar_icons navbar_icons_session"
+                src="images/session.png"
+              />
+            </a>
+          </li>
+        </ul>
+
+        <ul
+          id="nav-mobile"
+          class="hide-on-small-only main_navbar_text_cover_3 row left"
+        >
+          <form>
+            <div class="grey lighten-3 input-field">
+              <input
+                id="search"
+                type="search"
+                class="grey lighten-3 search_input"
+                requi
+              />
+              <label class="label-icon" for="search">
+                <i class="grey-text search_label material-icons"
+                  >search</i
+                ></label
+              >
+              <i class="cancel_label material-icons">close</i>
+            </div>
+          </form>
+        </ul>
+
+        <ul id="nav-mobile" class="row right_notification right">
+          <li class="notification notify_icon push-s3 m1 l1 col s1">
+            <a class="link_notification" href="#">
+              <img
+                class="navbar_icons_notify"
+                src="images/notification.png"
+              />
+            </a>
+          </li>
+          <li class="right col l11 m11 s6">
+            <ul class="collection profile_cover grey">
+              <li class="collection-item white profile_example avatar">
+                <a class="profile_example_link">
+                  <img
+                    src="images/jojo.jpg"
+                    alt=""
+                    class="profile_image circle"
+                  />
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+    <!---- navbar ends here -->
+
+
+
+
+
+
+    <!-- add files header -->
+
+    <div class="row">
+        <div class="col  s12 m10 push-m1 hide-on-large-only ">
+            <div class="grey lighten-4 row header_niche">
+       
+                <div class="col m1 s1">
+                    <i class="grey-text text-darken-1  header_niche_back material-icons">
+                        arrow_back</i>
+                </div>
+                <div class="  col push-m3 m5 push-s3 center-align s5">
+                    <span class="grey-text  text-darken-2 header_niche_text">
+                        Add Files
+                    </span>
+                </div>
+            
+            
+        </div>
+        </div>
+    </div>
+
+<!----- File header ends here -->
+
+
+
+
+<!--- Add files form-->
+    
+    <div class="row main_row_add_files">
+        <div class="col first_col_add  s12 m10 push-m1 push-l1 l6">
+            <div  class="container  form_div">
+                <div  class=" row  file_upload_cover "
+                onclick="$('.file').click()">
+                    <div class="col grey lighten-2 s12  file_upload_image_cover ">
+                        <img  class="file_upload_image responsive-img" src="images/file.png" />
+                    </div>
+                </div> 
+            </div> 
+        </div> 
+        <div class="col second_col_add s12 m10  push-m1  l5">
+            <div class="container  form_div form_div2">
+                <form class="  form">
+
+                    <input hidden type="file" class="file" id="file"
+                     accept="image/png , image/jpeg" />
+                    <div class="input_1 input-field">
+                        <label class="default-label
+                        lemail" for="email">
+                            File Name
+                        </label>
+                        <input type="text" 
+                        placeholder="Enter Your email" class="default-input
+                         grey lighten-2
+                         email" id="email" />
+                         
+                    </div>
+        
+                
+                    
+                    <div class="input_1 input-field">
+                        <label class="default-label lpassword" for="textarea">
+                           File Description
+                        </label>
+                        <textarea 
+                        placeholder="File Description"
+                        class="default-input description_field
+                         grey lighten-2 textarea_input" id="textarea"></textarea>
+                         
+                    </div>
+        
+                    <div class="row department category_row ">
+                        <div class="col  category_section s3">
+                            Category:
+                        </div>
+                        <div class="col grey lighten-2 input-field 
+                        select-input s3">
+                            
+                              <select class="icons">
+                                  
+                                <option value=""
+                                 class="left">Male</option>
+                                <option value="" 
+                                 class="left">Female</option>
+                              </select>
+                             
+                        
+                        </div>
+                        <div class="col push-s1 category_section s3">
+                            Level:
+                        </div>
+                        <div class="col  lighten-2 input-field 
+                        select-input  s3">
+                            
+                              <select class="icons select_form ">
+                                  
+                                <option value=""
+                                 class="option left">Male</option>
+                                <option value="" 
+                                 class="left" >Female</option>
+                              </select>
+                             
+                        
+                        </div>
+                    </div>
+                    <div class="row department">
+                        <div class="col  category_section s3">
+                            Department:
+                        </div>
+                        <div class="col  lighten-2 input-field 
+                        select-input s9">
+                            
+                              <select class="icons select_form ">
+                                  
+                                <option value=""
+                                 class="option left">Male</option>
+                                <option value="" 
+                                 class="left" >Female</option>
+                              </select>
+                             
+                        
+                        </div>
+                    </div>
+                    
+                   
+        
+                    <div class="button-row-upload center-align row">
+                        <button class="btn button-upload grey ">
+                            UPLOAD
+                        </button>
+                    </div>
+        
+                    
+                   
+        
+                    
+                </form>
+            </div>
+        </div>
+               
+    
+    </div>
+
+
+
+    <!--- END OF FORM -->
+
+
+
+
+
+
+    <!-- navigation panel for mobile -->
+
+
+    <div class="row mobile_menu_hidden   contain">
+      <div class="col s12 push-m1 m10 push-l3 l6">
+        <div class="card grey mobile_menu_hidden z-depth-0">
+          <div class="card-image">
+            <img class="hiden_image" >
+            <span hidden class="card-title">Card Title</span>
+            <a class="key_button grey darken-3 btn-large btn-floating halfway-fab waves-effect waves-light"><i class="key_button_icon material-icons">add</i></a>
+          </div>
+          <div class="grey lighten-2 key_menus z-depth-2  row card-content">
+            <div class="col m3 s3 "> 
+              <a class="grey-text text-darken-3">
+              <i class="key-item material-icons">store</i>
+              <div class="key_item_name">Home</div>
+            </a>
+             
+            </div>  
+            <div class="col m3 s3 "> 
+              <a class="grey-text text-darken-3">
+                <i class="key-item material-icons">search</i>
+                <div class="key_item_name">Search</div>
+              </a>
+              
+            </div>  
+            <div class="col push-m1 m3 push-s1 s3 ">
+              <a class="grey-text text-darken-3">
+                <i class="key-item material-icons">settings_voice</i>
+                <div class="key_item_name">Sessions</div>
+              </a>
+            </div>  
+            <div class="col push-m1 m3 push-s1 s3 ">
+              <a class="grey-text text-darken-3">
+                <i class="key-item material-icons">settings</i>
+              <div class="key_item_name">Settings</div>
+              </a> 
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!---END OF NAVIGATIUON PANEL -->
+
+    
+    <script src="./js/jquery.js"></script>
+    <script src="./js/materialize.js"></script>
+    <script type="text/javascript">
+
+    
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    
+    
+    var a = $('select');
+    a.formSelect();
+    
+    
+   
+  });
+
+           
+        </script>
+</body>
+
+
+</html>

@@ -1,0 +1,359 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" href="./css/editprofile.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link href="css/icon.css" rel="stylesheet">
+    
+    <!-- Compiled and minified JavaScript -->
+    
+</head>
+<body>
+
+
+  <!---FIXED NAVBAR -->
+
+
+  <div class="navbar-fixed">
+    <nav class="white darken-2 navbar_color-changer z-depth-0">
+      <div class="container container_desktop">
+        <div class="nav-wrapper">
+          <ul id="nav-mobile" class="main_navbar_text_cover row left">
+            <li class="notification col s1">
+              <a class="header_link_cover grey" href="#">
+                <img src="images/logo.jpg" />
+              </a>
+            </li>
+          </ul>
+
+          <ul
+            id="nav-mobile"
+            class="hide-on-small-only main_navbar_text_cover_2 row left"
+          >
+            <li class="notification col s1">
+              <a class="header_link_cover_2" href="#">
+                <img class="navbar_icons" src="images/home.svg" />
+              </a>
+            </li>
+          </ul>
+
+          <ul
+            id="nav-mobile"
+            class="hide-on-small-only main_navbar_text_cover_2 row left"
+          >
+            <li class="notification col s1">
+              <a class="header_link_cover_2" href="#">
+                <img
+                  class="navbar_icons navbar_icons_session"
+                  src="images/session.png"
+                />
+              </a>
+            </li>
+          </ul>
+
+          <ul
+            id="nav-mobile"
+            class="hide-on-small-only main_navbar_text_cover_3 row left"
+          >
+            <form>
+              <div class="grey lighten-3 input-field">
+                <input
+                  id="search"
+                  type="search"
+                  class="grey lighten-3 search_input"
+                  requi
+                />
+                <label class="label-icon" for="search">
+                  <i class="grey-text search_label material-icons"
+                    >search</i
+                  ></label
+                >
+                <i class="cancel_label material-icons">close</i>
+              </div>
+            </form>
+          </ul>
+
+          <ul id="nav-mobile" class="row right_notification right">
+            <li class="notification notify_icon push-s3 m1 l1 col s1">
+              <a class="link_notification" href="#">
+                <img
+                  class="navbar_icons_notify"
+                  src="images/notification.png"
+                />
+              </a>
+            </li>
+            <li class="right col l11 m11 s6">
+              <ul class="collection profile_cover grey">
+                <li class="collection-item white profile_example avatar">
+                  <a class="profile_example_link">
+                    <img
+                      src="images/jojo.jpg"
+                      alt=""
+                      class="profile_image circle"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+<!---END OF FIXED NAVBAR-->
+
+
+<!----MY PROFILE HEADER-->
+
+
+    <div class="grey lighten-4 row header_niche">
+        <div class="col  s1">
+          <a class="">
+            <i class="grey-text text-darken-1  header_niche_back material-icons">
+              close</i>
+          </a>
+          
+        </div>
+        <span class=" col  push-s3 s5 push-m4 m6 push-l4 l6">
+            <span class="grey-text  text-darken-2 header_niche_text">
+                My Profile
+            </span>
+          </span>
+          <span class="col left_icon_cover push-s5  s1">
+            <span class="  grey-text text-darken-2  ">
+              <a class="">
+                <i class="grey-text text-darken-1 left_icon header_niche_back material-icons">
+                  check</i>
+              </a>
+             
+          </span>
+        </span>
+            
+        
+    </div>
+
+
+
+    <!--END OF PROFILE HEADER-->
+
+
+
+  <!-- change profile picture -->
+
+
+<div class="row">
+  <div class=" col  s12 m8 push-m2 l6">
+    <div class="profile_cover   row">
+      <div class="col s12 m8  push-m2">
+        <div class="card  z-depth-0">
+          <div class="card-image profile_back_cover">
+            <div class='profile_back_image' ></div>
+            <span class=" row  card_title_profile card-title change_background">
+              <div class="col push-s2 edit_picture_whole  s8 m12 l12">
+                <div class="  edit_profile_pics">
+                  <a class="">
+                    <i class="grey-text  edit_icon_pen material-icons">
+                      edit
+                  </i>
+                  </a>
+                 
+                </div>
+              <div class=" edit_profile_cover">
+                <img src='images/joj.jpg' class="profile_pics responsive-img" />
+              </div>
+            <div class=" center-align edit_profile_text">
+              Change Profile Picture
+            </div>
+              </div>
+               
+            </span>
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--MAIN FORM FOR EDITING PROFILE DETAILS-->
+
+
+
+  <div class="s12 col m10 push-m1  second_row l6">
+    <div class="row">
+      <div class="col s12 m12 l6 ">
+        <div class="row   form_change">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <input placeholder="Placeholder" value='Olamigoke Zion' id="first_name" type="text" class="validate">
+                <label for="first_name">Name</label>
+              </div>
+  
+              <div class="input-field col s12">
+                  <input placeholder="Placeholder" 
+                  value='Mechanical Engineering' id="first_name" type="text" class="validate">
+                  <label for="first_name">Department</label>
+                </div>
+  
+                <div class="input-field col s12">
+                  <input placeholder="Placeholder" 
+                  value='Federal University of Technology, Akure' id="first_name" type="text" class="validate">
+                  <label for="first_name">School Name</label>
+                </div>
+  
+                <div class="input-field col s12">
+                  <input placeholder="Placeholder" 
+                  value='09058898513' id="first_name" type="text" class="validate">
+                  <label for="first_name">Phone Number</label>
+                </div>
+  
+                <div class="input-field col s12">
+                  <select>
+                  <option selected value="2">Male</option>
+                    <option value="3">Female</option>
+                  </select>
+                  <label>Gender</label>
+                </div>
+  
+                <div class="input-field col s12">
+                  <input placeholder="Placeholder" 
+                  value='Lorem Ipsum lorem' id="first_name" type="text" class="validate">
+                  <label for="first_name">Bio</label>
+                </div>
+  
+  
+                <div class="password_change">
+                    <span class="left password-change-text">
+                        Change Password
+                    </span>
+  
+                    <span class="right password_show password-change-icon">
+                     <i class="password-change-iconic 
+                      material-icons">
+                         expand_less
+                     </i>
+                    </span>
+                     <span hidden class="password_hide right password-change-icon">
+                      <i class="password-change-iconic 
+                       material-icons">
+                          expand_more
+                      </i>
+                    
+                  </span>
+                </div>
+                
+              <div hidden class="password_container">
+                <div class="input-field below-password col s12">
+                  <input placeholder="Old password" 
+                  value='pass' id="first_name" type="password"
+                   class="validate">
+                  <label for="first_name">Old password</label>
+                </div>
+                <div class="input-field below-password col s12">
+                  <input placeholder="New password" 
+                  value='pass' id="first_name" type="password"
+                   class="validate">
+                  <label for="first_name">New password</label>
+                </div>
+                <div class="input-field below-password after-password col s12">
+                  <input placeholder="New password" 
+                  value='pass' id="first_name" type="password"
+                   class="validate">
+                  <label for="first_name">Confirm password</label>
+                </div>
+              </div>
+                
+          </div>
+  
+      </form>
+      </div>
+      </div>
+  </div>
+   
+  </div>
+</div>
+    
+
+
+<!-- NAVIGATION PANEL FOR ANDROID -->
+
+<div class="row mobile_menu_hidden   contain">
+  <div class="col s12 push-m1 m10 push-l3 l6">
+    <div class="card grey mobile_menu_hidden z-depth-0">
+      <div class="card-image">
+        <img class="hiden_image" >
+        <span hidden class="card-title">Card Title</span>
+        <a class="key_button grey darken-3 btn-large btn-floating halfway-fab waves-effect waves-light"><i class="key_button_icon material-icons">add</i></a>
+      </div>
+      <div class="grey lighten-2 key_menus z-depth-2  row card-content">
+        <div class="col m3 s3 "> 
+          <a class="grey-text text-darken-3">
+          <i class="key-item material-icons">store</i>
+          <div class="key_item_name">Home</div>
+        </a>
+         
+        </div>  
+        <div class="col m3 s3 "> 
+          <a class="grey-text text-darken-3">
+            <i class="key-item material-icons">search</i>
+            <div class="key_item_name">Search</div>
+          </a>
+          
+        </div>  
+        <div class="col push-m1 m3 push-s1 s3 ">
+          <a class="grey-text text-darken-3">
+            <i class="key-item material-icons">settings_voice</i>
+            <div class="key_item_name">Sessions</div>
+          </a>
+        </div>  
+        <div class="col push-m1 m3 push-s1 s3 ">
+          <a class="grey-text text-darken-3">
+            <i class="key-item material-icons">settings</i>
+          <div class="key_item_name">Settings</div>
+          </a> 
+        </div>  
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--- END -->
+      
+
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/materialize.js"></script>
+    <script type="text/javascript">
+
+    
+        
+        $(document).ready(function(){
+        
+        $('select').formSelect();
+        
+        
+
+        $('.password_show').click(function() {
+          $('.password_container').show()
+          $('.password_show').hide()
+          $('.password_hide').show()
+        })
+
+        $('.password_hide').click(function() {
+          $('.password_container').hide()
+          $('.password_show').show()
+          $('.password_hide').hide()
+        })
+      });
+    </script>
+</body>

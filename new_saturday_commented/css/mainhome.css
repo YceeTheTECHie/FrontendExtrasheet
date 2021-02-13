@@ -1,0 +1,284 @@
+.navbar_mainhome {
+  height: 75px !important;
+  border-bottom: 1px solid lightgrey;
+}
+  a.logo_cover {
+  margin: 25px 0px 0px 0px !important;
+}
+
+.summary {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.hide_up {
+  margin: 40px 0px 77.45px 0px;
+}
+.second_col {
+  margin-top: 30px;
+  padding: 0px 0px 0px 15px !important;
+  
+}
+.image_real {
+  width: 74px;
+  height: 72px;
+}
+.function {
+  margin-top: 20px;
+}
+.funtion_real {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.funtion_real_second {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+}
+
+.function_text {
+ 
+  margin: 17.66px 0px 0px 0px;
+}
+
+
+.main_text {
+  font-size: 16px !important;
+}
+
+.small_button {
+  width: 140%;
+  height: 51.55px;
+  border-radius: 10px;
+  margin-left: -15%;
+}
+
+.second_row_main {
+  padding-bottom: 40px !important;
+  padding-top: 40px !important;
+}
+
+span.knowledge_text {
+  color: #9E005D !important;
+}
+
+.get_started {
+  background: #9E005D;
+  font-weight: 600;
+}
+
+.second_row_main {
+  
+}
+
+@media (max-width:604px) and (min-width:0px) {
+  .second_col {
+    padding: 0px 90px !important;
+    margin-bottom: 60.72;
+  }
+
+  .first_col {
+    
+  }
+
+  .first_second_function {
+    margin-top: 61px !important;
+  }
+
+  .second_col_second {
+    padding: 0px 90px !important;
+    
+  }
+  .features {
+    margin-bottom: 34px;
+  }
+}
+
+@media only screen and (max-width:799.9px) {
+  .hide_ul {
+    display: none !important;
+  }
+  .message {
+    padding: 0px 40px;
+    
+  }
+  .message_text {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  .started_cover {
+    margin-top: 38px !important
+  }
+
+  .get_started {
+    width: 189px;
+    height: 64px;
+    border-radius: 10px;
+    font-size: 16px !important;
+    
+
+
+  }
+
+    .features {
+      margin-top: 163px !important;
+    }
+  .features_text {
+    font-size: 30px !important;
+    line-height: 36px !important;
+    font-weight: 600;
+  }
+
+  .message_text {
+    
+    margin-top: 83.65px;
+  }
+  .function_text{
+    margin-left: 20px;
+  }
+}
+
+
+
+
+@media only screen and (min-width:800px) {
+  .hide_up {
+    display: none;
+  }
+
+    .third_row {
+      padding: 130px 70px !important;
+    }
+
+  .second_row_main {
+   
+    background: #f8f8f8 !important;
+  }
+  .first_second_function {
+   
+    
+  }
+
+  .features {
+    margin: 163px 0px 50.95px 0px !important;
+  }
+
+  .first_col {
+    margin-bottom: 91px !important;
+  }
+
+  
+  a.logo_cover {
+  position: relative !important;
+  left: 18% !important;
+  top: 15px !important;
+  }
+
+  .navbar_mainhome {
+    height: 102px !important;
+  }
+
+  .hide_ul {
+    position: relative !important;
+    right: 7% !important;
+    top: 18%;
+  }
+
+  .nav_link {
+    border-radius: 10px;
+    height: 48.5px;
+    width: 118.97px;
+  }
+
+  .signup {
+    margin-right: 22px;
+    background-color: #9E005D;
+  }
+
+  .login {
+    background: white;
+    border: 1px solid #9E005D;
+  }
+
+  .message {
+    padding: 0px 0px;
+    
+  }
+  .message_text {
+    font-size: 47px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-top: 113.65px;
+  }
+
+  
+
+  .started_cover {
+    margin-top: 54.11px !important
+  }
+
+  .get_started {
+    width: 189px;
+    height: 64px;
+    border-radius: 10px;
+    font-size: 16px !important;
+
+
+  }
+
+  .features {
+    margin-top: 221.6px ;
+  }
+.features_text {
+  font-size: 30px !important;
+  line-height: 36px !important;
+  font-weight: 600;
+}
+
+.function_text {
+ 
+  margin: 17.66px 0px 0px 40px;
+}
+
+}
+
+@media only screen and (min-width: 993px) {
+  
+}
+
+
+button:hover {
+  background: #9E005D !important;
+}
+
+.login:hover {
+  background: white !important;
+}
+
+.login_text:hover {
+  background: white !important;
+}
+
+.signup {
+  margin-right: 22px;
+  background-color: #9E005D !important;
+  font-weight: 600;
+}
+
+.login {
+  background: white;
+  border: 1.5px solid #9E005D !important;
+  font-weight: 600;
+}
+
+.links_naved {
+  color: #9E005D !important;
+}
+
+.second_row_main {
+   
+  background: #f8f8f8 !important;
+}

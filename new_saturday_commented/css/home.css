@@ -1,0 +1,582 @@
+ul.profile_cover {
+    width: 70px;
+    max-height: 3.6rem;
+    
+    margin: 3px 0px 0px 0px;
+    border: none;
+    
+    
+}
+
+.main_navbar_text_cover {
+    padding: 0px !important;
+    margin-right: 35px;
+    margin-top: 0.8% !important;
+}
+
+li.notification {
+    padding: 0px !important;
+    margin: 0px;
+}
+
+.header_link_cover {
+    padding: 0px !important;
+    margin-top: 85% !important;
+}
+
+a.brand-text {
+    font-family: 'Aclonica' !important;   
+}
+
+.brand_logo_text {
+    font-size: 20px;
+}
+
+li.profile_example {
+    padding: 0.3rem !important;
+    width: 75px;
+    
+   
+}
+
+
+.card_row {
+    margin-bottom: 250px
+}
+
+.file_card {
+    padding-bottom: 10px;
+    
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 17px !important;
+    border-bottom-right-radius: 17px !important;
+}
+
+.file_image_cover {
+    
+}
+
+.file_image {
+    height: 170px;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    
+}
+
+i.grade_icons {
+    color:orangered;
+    font-size: 14px;
+    margin: 0px;
+}
+i.ungrade_icons {
+    color:white;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.halfStyled { 
+    position: relative; 
+    font-size: 50px; 
+    display: inline-block; 
+    color: black; 
+    white-space: pre; 
+    overflow: hidden; 
+} 
+  
+.halfStyled:before { 
+    display: block; 
+    position: absolute; 
+    z-index: 1; 
+    top: 0; 
+    left: 0; 
+    content: attr(data-content); 
+    height: 50%; 
+    overflow: hidden; 
+    color: green; 
+} 
+
+.file_summary {
+    padding: 15px 8px 12px 10px !important;
+}
+
+.file_header_details {
+    border: none;
+    margin: -6px 0px 5px 0px;
+}
+
+.file_header {
+    padding: 8px 0px 15px 0px !important;
+    font-size: 20px;
+    
+}
+
+.file_header_span {
+    margin-left: -10px !important;
+    padding-bottom: 10px !important;
+}
+
+
+.file_category_button {
+    margin: -4px 0px 10px 0px !important;
+    max-width: 10rem !important;
+    padding: 0px 10px 0px 10px !important;
+    border-radius: 20px;
+    font-size: 8px;
+}
+
+.file_main_summary {
+    font-size: 12px;
+}
+
+.li_bottom {
+    margin-top: 0px !important;
+}
+
+.file_details_bottom {
+    padding: 0px !important;
+    margin-top: 0px;
+    border: none !important;
+    
+}
+.file_bottom_content {
+    margin: 0px 0px 0px 0px !important;
+    border: none;
+
+}
+
+.file_bottom_image {
+    width: 57px !important;
+    height: 57px !important;
+    margin: 0px 0px 0px 1px;
+}
+.author {
+    margin: 0px 11px;
+    text-transform: none;
+    font-size: 12px;
+    line-height: 143%;
+    
+}
+
+.author_name {
+    margin: 0px !important;
+}
+
+.author_profile {
+    
+}
+
+.author_other {
+    color: grey;
+    margin-left: -10px !important;
+
+}
+
+.file_bottom_actions {
+    margin-top: -10px;
+    padding: 0px !important;
+    margin-top: -6px;
+
+}
+
+.icons_share_download {
+    margin-right: 8px !important;
+}
+
+.downloads_share {
+
+}
+
+i.file_bottom_icons {
+    font-size:30px;
+    line-height: 35px;
+}
+
+.downloads_number {
+    font-size: 12px;
+    margin-top: -6px !important;
+}
+
+.mobile_menu_hidden {
+    border: none !important;
+    border-radius: 50px !important;
+    position: fixed;
+    width: 90%;
+    margin-left: 5%;
+    height: 80px;
+    bottom: 10;
+    left: 0;
+}
+div.key_menus {
+    border-radius:  35px !important;
+    padding: 15px 35px 15px 40px !important;
+    border: 1px solid grey;
+    
+
+}
+
+i.key_button_icon {
+    font-size: 53px !important;
+    
+} 
+
+
+
+@media only screen and (max-width: 10000px) {
+    .key_button {
+        margin-right: 44% !important;
+    } 
+    }
+
+    @media only screen and (max-width: 550px) {
+        .key_button {
+            margin-right: 36.7% !important;
+        } 
+        }
+
+
+i.key-item {
+ font-size: 34px !important;
+}
+
+.key_item_name {
+    font-size: 10px;
+}
+@media only screen and (min-width: 800px) {
+    .mobile_menu_hidden {
+        display: none;
+    }
+
+
+}
+@media only screen and (max-width: 799px) {
+    ul.hide-on-small-only {
+        display: none !important;
+    }
+
+}
+
+
+
+@media (max-width:799px) and (min-width:603px) {
+    ul.profile_cover {
+        width: 70px;
+        max-height: 3.6rem;
+        margin: 3px 0px 0px 20px;
+        border: none;
+        position: relative;
+        left: 38%;
+}​
+.link_notification {
+    background-color: red !important;
+}
+
+
+
+}
+
+
+@media only screen and (min-width: 800px) {
+
+    .notify_icon {
+        position: relative;
+        left: 0px  !important;
+    }
+    .container_desktop {
+        margin: 0px;
+        width: 85% !important;
+        margin-left: 7.5% !important;
+    }
+
+    .main_navbar_text_cover {
+        padding: 0px !important;
+        margin-right: 25px;
+        margin-top: 6.5px !important;
+    }
+        .right_notification {
+            padding-left: 0px !important;
+            width:80px;
+        }
+
+        .link_notification {
+            padding: 0px !important;
+            position: relative;
+            left: -10px;
+            
+            
+
+        }
+
+    .header_link_cover_2 {
+        padding: 0px !important;
+        margin-top: -2px !important;
+    }
+    
+    .main_navbar_text_cover_2 {
+        margin: 0px 10px;
+        width: 28px !important;
+        height: 38px !important;
+    }
+
+    .main_navbar_text_cover_3 {
+        margin: 10px 10px 0px 10px;
+        width: 25% !important;
+        height: 38px !important;
+        border-radius: 20px;
+    }
+
+    div.input-field {
+        width: 135%;
+        border-radius: 20px;
+        margin-top: 4px;
+    }
+
+    input.search_input {
+        padding: 0px 0px 0px 38px !important;
+        width: 70% !important;
+        border-bottom-left-radius: 20px  !important;
+        
+    }
+
+    i.search_label {
+        margin: -12px 0px 0px -5px !important;
+    }
+
+    i.cancel_label {
+        margin: -13px -10px 0px 0px !important;
+    }
+    
+    i.navbar_icons {
+        font-size: 29px !important;
+        margin-top: 4px;
+    }
+}    
+
+
+
+@media only screen and (min-width: 993px) {
+.container_desktop {
+    margin: 0px;
+    width: 80% !important;
+    margin-left: 10% !important;
+}
+.first_col_layout {
+    padding: 2% 1% 0% 10% !important;
+}
+
+.file_image {
+    height: 214px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    
+}
+
+.second_desktop_layout {
+    margin-left: 1% !important;
+    padding: 0px !important;
+    margin-top: 2.7% !important;
+}
+
+.right_desktop_image {
+    position: relative;
+    left: 0% !important;
+    width: 45px !important;
+    height: 50px !important;
+    
+}
+
+
+.right_desktop_text_cover {
+    width: 70% !important;
+    margin-left: 33px !important;
+}
+
+.notify_icon {
+    position: relative;
+    left: 0px  !important;
+}
+
+}
+
+@media only screen and (min-width: 1150px) {
+    .file_image {
+        height: 240px !important;
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 15px !important;
+        border-bottom-right-radius: 15px !important;
+        
+    }
+
+    .notify_icon {
+        position: relative;
+        left: 0px  !important;
+    }
+}
+
+@media (max-width:992px) and (min-width:601px) {
+    .first_col_layout {
+        margin-left: -5% !important;
+        padding: 3% 1% 0px 5% !important;
+    }
+
+    .notify_icon {
+        position: relative;
+        left: 20px ;
+    }
+    .second_desktop_layout {
+        margin-left: 12% !important;
+        padding: 0px !important;
+        margin-top: 4%;
+    }
+    .second_row_desktop_layout {
+        padding: 0px !important;
+    }
+
+    .right_desktop_image {
+        position: relative;
+        left: -5% !important;
+        width: 35px !important;
+        height: 40px !important;
+        
+    }
+
+    .right_desktop_text_cover {
+        width: 70% !important;
+        margin-left: 27px !important;
+    }
+
+}
+
+@media only screen and (min-width: 604px) {
+    .file_image {
+        height: 197px;
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-left-radius: 15px !important;
+        border-bottom-right-radius: 15px !important;
+        
+    }
+
+    .right_desktop_text_cover {
+        padding: 0px !important;
+        
+        
+    }
+
+    
+
+    .right_desktop_text {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .right_desktop_text2 {
+        font-size: 10.5px;
+        line-height: 17px;
+    }
+    .first_col_layout {
+        
+        
+    }
+
+    
+}
+
+
+
+@media only screen and (max-width: 603px) {
+    ul.hide-on-small-only {
+        display: none !important;
+    }
+
+    .first_col_layout {
+        padding: 2% 3% 2% 0% !important;
+        
+    }
+
+    .second_desktop_layout {
+        margin-left: 10% !important;
+        padding: 0px !important;
+        
+    }
+
+    .right_desktop_text {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .right_desktop_text2 {
+        font-size: 10.5px;
+        line-height: 17px;
+    }
+
+    
+    
+}
+
+@media only screen and (max-width: 601px) {
+    .first_col_layout {
+        padding: 2% 7% !important;
+        margin-top: 20px;
+        
+    }
+
+.image_profile {
+    width: 57px !important;
+    height: 57px !important;
+}
+
+.name_profile {
+    padding: 0px !important;
+    margin-left: 2% !important;
+    
+}
+
+}
+
+.add_file_button {
+    width: 190px !important;
+    padding: 7px 10px 42px 10px !important;
+    height: 45px !important;
+    text-transform: none;
+    font-size: 14px;
+    border-radius: 11px !important;
+
+    
+}
+
+.add_file_icon {
+    font-size: 35px !important;
+    position: relative;
+    left: -9%;
+    
+}
+
+.right_desktop_text {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.right_desktop_text2 {
+    font-size: 10.5px;
+    line-height: 17px;
+}
+
+.profile_cover {
+    margin-left: 20px !important;
+}
+
+.notify_icon {
+    position: relative;
+    left: 30px ;
+}
+
+
+.navbar_color-changer {
+    padding:10px 0px 70px 0px;
+}
